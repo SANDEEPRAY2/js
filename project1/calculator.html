@@ -109,19 +109,6 @@
 
         let currentDisplay = '';
         document.querySelector('#display').value = currentDisplay;
-
-function calculate() {
-    try {
-        // Evaluate the expression in currentDisplay and update the result
-        let result = eval(currentDisplay);
-        currentDisplay = result; // Update currentDisplay with the result
-        document.querySelector('#display').value = currentDisplay; // Update the display
-    } catch (error) {
-        document.querySelector('#display').value = "Error"; // Show error if eval fails
-    }
-}
-
-
     </script>
 </body>
 

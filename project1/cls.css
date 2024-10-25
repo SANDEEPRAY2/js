@@ -4,7 +4,7 @@ border-radius: 5px;
 text-align: center;
 margin: 5px 10px;
 width: 200px;
-
+background-color: rgba(8, 3, 3, 0.808);
 }
 
 .btn-container{
@@ -15,10 +15,12 @@ width: 200px;
     width: 45px;
     height: 45px;
     margin: 3px;
+    border-radius: 10px;
 }
 
 #display{
     width: 170px;
     margin: 10px;
     font-size: 30px;
+    border-radius: 10px;
 }
