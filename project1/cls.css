@@ -1,0 +1,24 @@
+#cal{
+border: 2px solid black;
+border-radius: 5px;
+text-align: center;
+margin: 5px 10px;
+width: 200px;
+
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+}
+
+#display{
+    width: 170px;
+    margin: 10px;
+    font-size: 30px;
+}
